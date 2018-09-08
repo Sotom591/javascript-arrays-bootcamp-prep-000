@@ -18,41 +18,43 @@ return addElementToBeginningOfArray;
 }
 
 
-function destuctivelyAddElementToBeginningOfArray(Thing0)
+function destuctivelyAddElementToBeginningOfArray(array, element)
 {
 randomArray.unshift("Thing0");
 return destructivelyAddElementToEndOfArray;
 }
 
 
-function addElementToEndOfArray(Thing03){
+function addElementToEndOfArray(array, element){
 [...randomArray, "Thing03"];  
+return addElementToEndOfArray;
 }
-addElementToEndOfArray;
 
-function destructivelyAddElementToEndOfArray(Thing3){
+
+function destructivelyAddElementToEndOfArray(array, element){
 randomArray.push("Thing3");
+return destructivelyAddElementToEndOfArray
 }
 
 
-function accessElementInArray(Bananas){
+function accessElementInArray(array, index){
   var arrayList = ["Art", "Bananas", "Cats", "Droplets", "Europe"];
   console.log (arrayList[1]);
 }
 
-function destructivelyRemoveElementFromBeginningOfArray(){
+function destructivelyRemoveElementFromBeginningOfArray(array){
 const meses = ["Enero", "Febrero", "Marzo", "Abril"];
 meses.shift();
-meses;
+return meses;
 }
 
-function removeElementFromBeginningOfArray(){
+function removeElementFromBeginningOfArray(array){
   var colors = ["Blue", "Yellow", "Green", "Red"];
   colors.slice(1);
   colors;
 }
 
-function destructivelyRemoveElementFromEndOfArray(){
+function destructivelyRemoveElementFromEndOfArray(array){
   var girlsNames = ["Jill", "Sarah", "Eliza"];
   girlsNames.pop();
   girlsNames;
