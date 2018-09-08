@@ -55,9 +55,8 @@ function removeElementFromBeginningOfArray(array){
 }
 
 function destructivelyRemoveElementFromEndOfArray(array){
-  var girlsNames = ["Jill", "Sarah", "Eliza"];
-  girlsNames.pop();
-  girlsNames;
+  array.pop();
+  return array
 }
 
 function removeElementFromEndOfArray(array){
