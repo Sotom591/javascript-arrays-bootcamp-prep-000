@@ -13,15 +13,15 @@ var randomArray = ["Thing1", "Thing2"];
 
 function addElementToBeginningOfArray(array, element)
 {
-["Thing01", ...randomArray];
-return addElementToBeginningOfArray;
+[array, ...element];
+return array;
 }
 
 
 function destuctivelyAddElementToBeginningOfArray(array, element)
 {
-randomArray.unshift(element);
-return randomArray;
+array.unshift(element);
+return array[element];
 }
 
 
@@ -31,7 +31,7 @@ return [...array, element];
 
 
 function destructivelyAddElementToEndOfArray(array, element){
-array.push[element];
+array.push(element);
 return array;
 }
 
