@@ -21,7 +21,7 @@ return addElementToBeginningOfArray;
 function destuctivelyAddElementToBeginningOfArray(array, element)
 {
 randomArray.unshift(element);
-return destructivelyAddElementToEndOfArray;
+return randomArray;
 }
 
 
