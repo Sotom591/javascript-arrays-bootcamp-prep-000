@@ -38,25 +38,22 @@ return destructivelyAddElementToEndOfArray
 
 
 function accessElementInArray(array, index){
-  var arrayList = ["Art", "Bananas", "Cats", "Droplets", "Europe"];
   console.log (arrayList[1]);
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array){
-const meses = ["Enero", "Febrero", "Marzo", "Abril"];
-meses.shift();
-return meses;
+array.shift();
+return array;
 }
 
 function removeElementFromBeginningOfArray(array){
-  var colors = ["Blue", "Yellow", "Green", "Red"];
-  colors.slice(1);
-  colors;
+  array.slice(1);
+  return array;
 }
 
 function destructivelyRemoveElementFromEndOfArray(array){
   array.pop();
-  return array
+  return array;
 }
 
 function removeElementFromEndOfArray(array){
