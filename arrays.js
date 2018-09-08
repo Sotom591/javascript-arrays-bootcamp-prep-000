@@ -10,7 +10,7 @@ var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 
 const array = [1, 2, 3, 4];
 
-function addElementToBeginningOfArray(){
+function addElementToBeginningOfArray(array, element){
 var randomArray = ["Thing1", "Thing2"];
 ["Thing01", ...randomArray];
 }
