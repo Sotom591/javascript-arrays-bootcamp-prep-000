@@ -27,13 +27,13 @@ return randomArray;
 
 function addElementToEndOfArray(array, element){
 [...randomArray, "Thing03"];  
-return addElementToEndOfArray;
+return array;
 }
 
 
 function destructivelyAddElementToEndOfArray(array, element){
-array.push;
-return array[element]
+array.push[element];
+return array;
 }
 
 
