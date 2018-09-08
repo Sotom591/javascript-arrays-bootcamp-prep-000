@@ -60,9 +60,6 @@ function destructivelyRemoveElementFromEndOfArray(array){
   girlsNames;
 }
 
- function removeElementFromEndOfArray(array) {
-   
- }
 function removeElementFromEndOfArray(array){
 var pizzaToppings = ["pepperoni", "sausage", "olives", "pineapple"];
 pizzaToppings.slice(0, pizzaToppings.length - 1);
