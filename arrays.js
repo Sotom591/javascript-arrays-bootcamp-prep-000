@@ -11,16 +11,19 @@ var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 
 var randomArray = ["Thing1", "Thing2"];
 
-function addElementToBeginningOfArray(array, element){
-
+function addElementToBeginningOfArray(array, element)
+{
 ["Thing01", ...randomArray];
+return addElementToBeginningOfArray;
 }
-console.log (addElementToBeginningOfArray);
 
-function destuctivelyAddElementToBeginningOfArray(Thing0){
+
+function destuctivelyAddElementToBeginningOfArray(Thing0)
+{
 randomArray.unshift("Thing0");
-}
 return destructivelyAddElementToEndOfArray;
+}
+
 
 function addElementToEndOfArray(Thing03){
 [...randomArray, "Thing03"];  
