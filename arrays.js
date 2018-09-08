@@ -17,9 +17,10 @@ var randomArray = ["Thing1", "Thing2"];
 console.log (addElementToBeginningOfArray);
 
 function destuctivelyAddElementToBeginningOfArray(Thing0){
+  var randomArray = ["Thing1", "Thing2"];
 randomArray.unshift("Thing0");
 }
-destructivelyAddElementToEndOfArray;
+console.log(destructivelyAddElementToEndOfArray);
 
 function addElementToEndOfArray(Thing03){
 [...randomArray, "Thing03"];  
