@@ -14,7 +14,7 @@ function addElementToBeginningOfArray(array, element){
 var randomArray = ["Thing1", "Thing2"];
 ["Thing01", ...randomArray];
 }
-addElementToBeginningOfArray;
+console.log (addElementToBeginningOfArray);
 
 function destuctivelyAddElementToBeginningOfArray(Thing0){
 randomArray.unshift("Thing0");
