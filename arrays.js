@@ -32,8 +32,8 @@ return addElementToEndOfArray;
 
 
 function destructivelyAddElementToEndOfArray(array, element){
-randomArray.push("Thing3");
-return destructivelyAddElementToEndOfArray
+array.push;
+return array[element]
 }
 
 
