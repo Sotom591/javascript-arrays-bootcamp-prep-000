@@ -26,8 +26,7 @@ return randomArray;
 
 
 function addElementToEndOfArray(array, element){
-[...randomArray, "Thing03"];  
-return array;
+return [...array, element];
 }
 
 
