@@ -20,7 +20,7 @@ console.log (addElementToBeginningOfArray);
 function destuctivelyAddElementToBeginningOfArray(Thing0){
 randomArray.unshift("Thing0");
 }
-console.log(destructivelyAddElementToEndOfArray);
+return destructivelyAddElementToEndOfArray;
 
 function addElementToEndOfArray(Thing03){
 [...randomArray, "Thing03"];  
