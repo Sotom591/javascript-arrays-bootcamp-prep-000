@@ -13,8 +13,8 @@ var randomArray = ["Thing1", "Thing2"];
 
 function addElementToBeginningOfArray(array, element)
 {
-[array, ...element];
-return array;
+return [element, ...array];
+
 }
 
 
