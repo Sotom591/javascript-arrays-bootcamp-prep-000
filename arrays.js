@@ -38,7 +38,7 @@ return destructivelyAddElementToEndOfArray
 
 
 function accessElementInArray(array, index){
-  console.log (arrayList[1]);
+  return array[index];
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array){
