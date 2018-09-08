@@ -9,15 +9,15 @@ var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 
 
 const array = [1, 2, 3, 4];
+var randomArray = ["Thing1", "Thing2"];
 
 function addElementToBeginningOfArray(array, element){
-var randomArray = ["Thing1", "Thing2"];
+
 ["Thing01", ...randomArray];
 }
 console.log (addElementToBeginningOfArray);
 
 function destuctivelyAddElementToBeginningOfArray(Thing0){
-  var randomArray = ["Thing1", "Thing2"];
 randomArray.unshift("Thing0");
 }
 console.log(destructivelyAddElementToEndOfArray);
